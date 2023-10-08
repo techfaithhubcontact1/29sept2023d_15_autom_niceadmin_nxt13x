@@ -1,5 +1,6 @@
 //1. Import Area
 
+import { APP_NAME } from '@/Helper/helper'
 import Link from 'next/link'
 import React from 'react'
 
@@ -10,8 +11,8 @@ export default function Header() {
        <header id="header" className="header fixed-top d-flex align-items-center">
             <div className="d-flex align-items-center justify-content-between">
                 <a href="index.html" className="logo d-flex align-items-center">
-                    <img src="assets/img/logo.png" alt="true" />
-                    <span className="d-none d-lg-block">NiceAdmin</span>
+                    <img src="../assets/img/logo.png" alt="true" />
+                    <span className="d-none d-lg-block"> {APP_NAME} </span>
                 </a>
                 <i className="bi bi-list toggle-sidebar-btn" />
             </div>{/* End Logo */}
@@ -105,7 +106,7 @@ export default function Header() {
                         </li>
                         <li className="message-item">
                         <a href="#">
-                            <img src="assets/img/messages-1.jpg" alt="true" className="rounded-circle" />
+                            <img src="../assets/img/messages-1.jpg" alt="true" className="rounded-circle" />
                             <div>
                             <h4>Maria Hudson</h4>
                             <p>Velit asperiores et ducimus soluta repudiandae labore officia est ut...</p>
@@ -118,7 +119,7 @@ export default function Header() {
                         </li>
                         <li className="message-item">
                         <a href="#">
-                            <img src="assets/img/messages-2.jpg" alt="true" className="rounded-circle" />
+                            <img src="../assets/img/messages-2.jpg" alt="true" className="rounded-circle" />
                             <div>
                             <h4>Anna Nelson</h4>
                             <p>Velit asperiores et ducimus soluta repudiandae labore officia est ut...</p>
@@ -131,7 +132,7 @@ export default function Header() {
                         </li>
                         <li className="message-item">
                         <a href="#">
-                            <img src="assets/img/messages-3.jpg" alt="true" className="rounded-circle" />
+                            <img src="../assets/img/messages-3.jpg" alt="true" className="rounded-circle" />
                             <div>
                             <h4>David Muldon</h4>
                             <p>Velit asperiores et ducimus soluta repudiandae labore officia est ut...</p>
@@ -149,7 +150,7 @@ export default function Header() {
                     </li>{/* End Messages Nav */}
                     <li className="nav-item dropdown pe-3">
                     <a className="nav-link nav-profile d-flex align-items-center pe-0" href="#" data-bs-toggle="dropdown">
-                        <img src="assets/img/profile-img.jpg" alt="Profile" className="rounded-circle" />
+                        <img src="../assets/img/profile-img.jpg" alt="Profile" className="rounded-circle" />
                         <span className="d-none d-md-block dropdown-toggle ps-2">K. Anderson</span>
                     </a>{/* End Profile Iamge Icon */}
                     <ul className="dropdown-menu dropdown-menu-end dropdown-menu-arrow profile">
