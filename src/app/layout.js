@@ -9,13 +9,11 @@ import '../../public/assets/vendor/simple-datatables/style.css';
 import '../../public/assets/css/style.css';
 
 import './globals.css';
-
 import Script from  'next/script';
-
 // import { Inter } from 'next/font/google'
 
 // Import Open sans font
-// Import {namedImport1, NamedImport2,...} from 'some library/location'
+// Import {namedImport1, NamedImport2,...} from 'some library/location' 
 import { Open_Sans, Nunito, Poppins } from 'next/font/google'
 
 // const inter = Inter({ subsets: ['latin'] })
@@ -26,11 +24,13 @@ const openSans = Open_Sans({
     display: 'swap',
     weight: ['300', '400', '500', '600', '700']
 });
+
 const nunito = Nunito({
   subsets: ['latin'],
   display: 'swap',
   weight: ['300', '400', '500', '600', '700']
 });
+
 const poppins = Poppins({
   subsets: ['latin'],
   display: 'swap',

@@ -1,10 +1,10 @@
 //1. import Area
-
 // Import {namedImport} from 'some library/location'
 import { APP_BRAND, APP_BRAND_WEB_URL, APP_NAME } from "@/Helper/helper";
+
 import Link from "next/link";
  
- //2. defination area 
+ //2. defination area  and export area
 export default function Home() {
   return (
     <>
